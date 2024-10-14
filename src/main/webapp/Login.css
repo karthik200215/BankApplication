@@ -1,0 +1,47 @@
+.LOGIN{
+ 	background-color: white;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    PADDING-TOP: 60PX;
+    PADDING-bottom: 90PX;
+    margin-top: 100PX;
+    margin-left: 530PX;
+    margin-bottom: 160px;
+    width: 400PX;
+    border-radius: 20px;
+}
+.bt{
+	padding:10px;
+	border-radius:5px;
+}
+h2{
+	text-align : center;
+	color : black;
+	font-size: 50px;
+}
+#sub{
+    width: 50%;
+    padding: 10px;
+    background-color: #06356D;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#p{
+	padding-right:20px;
+}
+.p1{
+	font-size:20px;
+} 
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to top, #031D58 30%, #52AEF7 70%);
+}
+input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid black;
+}

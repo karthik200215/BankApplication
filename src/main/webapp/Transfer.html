@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TRANSFER AMOUNT PAGE</title>
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-image: linear-gradient(to top, #031D58 0%, #52AEF7 100%);
+	justify-content: center;
+	align-items: center;
+	height: 78vh;
+	color: #333;
+}
+.trans {
+	background-color: white;
+	padding: 50px;
+	margin-top: 170px;
+	width: 700px;
+	margin-left: 400px;
+	border-radius: 50px;
+}
+input[type="text"], input[type="password"] {
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+}  
+input[type="submit"]{
+	width:100px;
+	height:40px;
+	border-radius:10px;
+	align-items :center;
+	background-color:#06356D;
+	color:white;
+	margin-left:250px;
+	
+}
+</style>
+<body>
+	<div class="trans">
+		<H2 style="text-align:center;">Please enter the amount to be transfered</H2>
+		<br>
+		<form action="Transfer">
+			<label>Account Number : </label> 
+			<input type="text" name="racc_num">
+			<br> <br> <label>Amount : </label> <input type="text"
+				name="amt"> 
+				<br> 
+				<br> 
+		<input type="submit">
+
+		</form>
+	</div>
+</body>
+</html>
