@@ -1,0 +1,51 @@
+body {
+	padding-top:70px;
+	background-image:
+		url("https://static.vecteezy.com/system/resources/previews/010/518/833/non_2x/digital-finance-and-banking-investment-service-on-microchip-with-cloud-computing-in-futuristic-background-bank-building-with-online-payment-secure-money-and-financial-innovation-technology-vector.jpg");
+	background-position: center;
+	align-items: center;
+}
+.reg {
+	padding:100px;
+	background-color: white;
+	padding-top:40px;
+	margin-right:1000px;
+	margin-left:200px;
+	padding-right:30px;
+	width:500px;
+	border-radius:40px;	
+	display: flex;
+	flex-direction: column;
+	padding-bottom:10px;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    
+} 
+.sub{
+	width:100px;
+	height:40px;
+	border-radius:10px;
+	align-items :center;
+	background-color:#06356D;
+	color:white;
+}
+input[type="submit"]{
+	
+	margin-left:100px;
+}

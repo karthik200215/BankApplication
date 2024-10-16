@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loan Page</title>
+<style>
+body {
+	font-family: 'Arial', sans-serif;
+	background-image: linear-gradient(to top, #031D58 0%, #52AEF7 100%);
+	height:500px;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	max-width: 800px;
+	margin: 50px auto;
+	margin-top:200px;
+	
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.loan-options {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.loan-option {
+	background-color: #143C7A;
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+.loan-option:hover {
+	background-color: #45a049;
+}
+
+.loan-option:active {
+	background-color: #3e8e41;
+}
+
+.footer {
+	font-size: 14px;
+	color: #777;
+	margin-top: 20px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Select the Loan you wish to apply</h1>
+		<div class="loan-options">
+			<a href="Loan" class="loan-option">Educational Loan</a> <a
+				href="Loan" class="loan-option">Marriage Loan</a> <a href="Loan"
+				class="loan-option">House Loan</a> <a href="Loan"
+				class="loan-option">Car Loan</a>
+		</div>
+		<div class="footer">
+			<p>Choose the loan type that suits your needs and get started on
+				the application process.</p>
+		</div>
+	</div>
+</body>
+</html>
